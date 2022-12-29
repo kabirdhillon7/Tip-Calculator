@@ -20,7 +20,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
     }
-
+    
+    @IBAction func onTap(_ sender: Any) {
+        view.endEditing(true)
+    }
+    
     @IBAction func calculateTip(_ sender: Any) {
         // Get bill amount from text field input
         let bill = Double(billAmountTextField.text!) ?? 0
