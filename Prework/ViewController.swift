@@ -14,10 +14,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var totalLabel: UILabel!
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        billAmountTextField.becomeFirstResponder()
+        
+        // in the case billTF is empty
+        guard ((billAmountTextField.text?.isEmpty) != nil) else {
+            tipAmountLabel.text = "$0.00"
+            totalLabel.text = "$0.00"
+            return
+        }
         
     }
     
