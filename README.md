@@ -34,7 +34,7 @@ Some of the UI features include:
 
 ## Demo
 
-<img src='https://github.com/kabirdhillon7/Tip-Calculator/blob/main/CurrentWalkthrough1:4.gif' width=250><br>
+<img src='https://github.com/kabirdhillon7/Tip-Calculator/blob/main/CurrentWalkthrough.gif' width=250><br>
 
 ## Installation
 
