@@ -20,10 +20,17 @@ class ViewController: UIViewController {
         
         billAmountTextField.becomeFirstResponder()
         
+        let currencyFormatter = NumberFormatter()
+        currencyFormatter.usesGroupingSeparator = true
+        currencyFormatter.numberStyle = .currency
+        currencyFormatter.locale = NSLocale.current
+        
+        let initialAmount = currencyFormatter.string(from: 0)
+        
         // in the case billTF is empty
         guard ((billAmountTextField.text?.isEmpty) != nil) else {
-            tipAmountLabel.text = "$0.00"
-            totalLabel.text = "$0.00"
+            tipAmountLabel.text = initialAmount
+            totalLabel.text = initialAmount
             return
         }
         
@@ -42,11 +49,15 @@ class ViewController: UIViewController {
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
         let total = bill + tip
         
-        // Update Tip Amount Label
-        tipAmountLabel.text = String(format: "$%.2f", tip)
-        // Update Total Amount
-        totalLabel.text = String(format: "$%.2f", total)
+        // Currency Formatter
+        let currencyFormatter = NumberFormatter()
+        currencyFormatter.usesGroupingSeparator = true
+        currencyFormatter.numberStyle = .currency
+        currencyFormatter.locale = NSLocale.current
+        
+        // Update Tip and Total Amount Labels Using Currency Formatter
+        tipAmountLabel.text = currencyFormatter.string(from: tip as NSNumber)
+        totalLabel.text = currencyFormatter.string(from: total as NSNumber)
     }
     
 }
-
