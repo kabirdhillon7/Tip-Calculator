@@ -33,8 +33,16 @@ Some of the UI features include:
 - iPod touch 7th generation or newer
 
 ## Demo
+### Current Walkthrough
 
 <img src='https://github.com/kabirdhillon7/Tip-Calculator/blob/main/CurrentWalkthrough.gif' width=250><br>
+
+### Progress 1 Walkthrough
+<details>
+  <summary>Click to view</summary>
+  
+  <img src="https://github.com/kabirdhillon7/Tip-Calculator/blob/main/Walkthrough.gif" width=250><br>
+</details>
 
 ## Installation
 
