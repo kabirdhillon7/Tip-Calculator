@@ -37,6 +37,10 @@ Some of the UI features include:
 
 <img src='https://github.com/kabirdhillon7/Tip-Calculator/blob/main/CurrentWalkthrough.gif' width=250><br>
 
+### Slideshow Presentation
+
+[Slide Deck](https://www.canva.com/design/DAErXZh-UJ0/view)
+
 ### Progress 1 Walkthrough
 <details>
   <summary>Click to view</summary>
