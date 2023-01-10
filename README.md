@@ -1,40 +1,68 @@
-# Pre-work - *Tip Calculator*
+# Tip Calculator
 
-**Tip Calculator** is a tip calculator application for iOS.
+Tip Calculator is an iOS tip calculator application.
 
-Submitted by: **Kabir Dhillon**
+This iOS application was a candidate requirement to be a [CodePath](https://www.codepath.org) iOS [Tech Fellow](https://www.codepath.org/tech-fellow-program).
 
-Time spent: **5** hours spent in total
+## Table of Contents
 
-## User Stories
+- [Description](#description)
+- [Requirements](#requirements)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Testing](#testing)
+- [License](#license)
+- [Contact](#contact)
 
-The following **required** functionality is complete:
+## Description
 
+Some of the main features include:
 * [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 * [X] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
+* [X] Using locale-specific currency and currency thousands separators.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
-The following **optional** features are implemented:
+Some of the UI features include:
+* [X] Implemented a launch screen and dark mode functionality
+* [X] Updated the app icon
 
-* [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+## Requirements
 
-The following **additional** features are implemented:
+- iOS 15.0 or later
+- iPhone 6s or newer
+- iPod touch 7th generation or newer
 
-- [X] Implemented a launch screen and dark mode functionality
-- [X] Updated the app icon
+## Demo
+### Current Walkthrough
 
-## Video Walkthrough
+<img src='https://github.com/kabirdhillon7/Tip-Calculator/blob/main/CurrentWalkthrough.gif' width=250><br>
 
-Here's a walkthrough of implemented user stories:
+### Slideshow Presentation
 
-<img src='https://github.com/kabirdhillon7/Tip-Calculator/blob/main/Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
+[Slide Deck](https://www.canva.com/design/DAErXZh-UJ0/view)
 
-GIF created with Giphy.
+### Progress 1 Walkthrough
+<details>
+  <summary>Click to view</summary>
+  
+  <img src="https://github.com/kabirdhillon7/Tip-Calculator/blob/main/Walkthrough.gif" width=250><br>
+</details>
 
-## Notes
+## Installation
 
+To install and set up the app on your own device, follow these steps:
+
+### Prerequisites
+- Xcode 11 or later
+
+### Cloning the repository
+
+To clone the repository, open a terminal and enter the following command:
+```
+git clone https://github.com/kabirdhillon7/Tip-Calculator
+```
+
+## Testing
 
 ## License
 
@@ -51,3 +79,11 @@ GIF created with Giphy.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+## Contact
+
+If you have any questions or feedback, you can reach me through the following channels:
+
+- GitHub: [@kabirdhillon7](https://github.com/kabirdhillon7)
+- LinkedIn: [Kabir Dhillon](https://www.linkedin.com/in/kabirdhillon/)
+
