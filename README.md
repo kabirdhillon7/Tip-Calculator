@@ -17,14 +17,13 @@ This iOS application was a candidate requirement to be a [CodePath](https://www.
 ## Description
 
 Some of the main features include:
-* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [X] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
-* [X] Using locale-specific currency and currency thousands separators.
-* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
-Some of the UI features include:
-* [X] Implemented a launch screen and dark mode functionality
-* [X] Updated the app icon
+- User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+- User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
+
+Other features include:
+- Using currency thousands separators.
+- Ensuring the keyboard is always visible and the bill amount is always the first responder
 
 ## Requirements
 
